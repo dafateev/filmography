@@ -2,6 +2,7 @@
 USE test;
 
 DROP TABLE IF EXISTS films;
+
 CREATE TABLE films
 (
   id int(10) PRIMARY KEY AUTO_INCREMENT,
@@ -10,7 +11,7 @@ CREATE TABLE films
   genre VARCHAR(20),
   watched BIT DEFAULT false  NOT NULL
 );
-# COLLATE='utf8_general_ci';
+
 CREATE UNIQUE INDEX films_title_uindex ON films (title);
 
 INSERT INTO `films` (`title`,`year`,`genre`, watched)
