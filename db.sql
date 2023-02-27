@@ -1,4 +1,4 @@
-# Скрипты SQL для создания таблицы фильмов в базе MySQL в схеме db_movie_list в таблице films
+# SQL scripts for creating a table of films in the MySQL database in the db_movie_list schema in the films table
 USE test;
 
 DROP TABLE IF EXISTS films;
