@@ -15,10 +15,10 @@ CREATE UNIQUE INDEX films_title_uindex ON films (title);
 
 INSERT INTO `films` (`title`,`year`,`genre`, watched)
 VALUES
-  ("Inception", 2010, "sci-fi", 1),
+  ("Star Wars", 1977, "space opera", 1),
   ("The Lord of the Rings: The Fellowship of the Ring", 2001, "fantasy", 1),
-  ("Tag", 2018, "comedy", 0),
-  ("Gunfight at the O.K. Corral", 1957, "western", 0),
+  ("Last Action Hero", 1993, "comedy", 1),
+  ("Indiana Jones", 1981, "adventures", 1),
   ("Die Hard", 1988, "action", 1),
   ("6", 1988, "action", 1),
   ("7", 1988, "action", 1),
