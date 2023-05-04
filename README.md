@@ -1,6 +1,6 @@
 ### filmography
-Simple CRUD example using Maven, Spring MVC, Hibernate, MySQL
+Простой пример CRUD приложения, использующий Maven, Spring MVC, Hibernate, MySQL
 
-Use SQL scripts from file db.sql for initial setup MySQL database
+Используйте SQL скрипты из файла `db.sql` для инициализации базы данных MySQL
 
-Enter your current username and password in the db.properties file
+Введите ваши текущие username и password в файле `db.properties` 
